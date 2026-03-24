@@ -1,4 +1,4 @@
-package Java_Programs;
+package java_programs;
 class Student {
     String name;
     int age;

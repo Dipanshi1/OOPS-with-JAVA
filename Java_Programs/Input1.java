@@ -1,4 +1,4 @@
-package Java_Programs;
+package java_programs;
 import java.util.Scanner;
 class Input1{
     public static void main(String args[]){

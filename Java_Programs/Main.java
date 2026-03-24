@@ -1,4 +1,4 @@
-package Java_Programs;
+package java_programs;
 public class Main {
     public static void main(String[] args) {
         System.out.println("OOPS Practice Repo Started");
