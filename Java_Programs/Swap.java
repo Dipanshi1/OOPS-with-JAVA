@@ -1,4 +1,4 @@
-package java_programs;
+
 public class Swap {
     public static void main(String[] args) {
         int a=10;

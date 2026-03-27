@@ -1,4 +1,4 @@
-package java_programs;
+
 public class WhileNumber {
     public static void main(String[] args) {
         int i = 10;

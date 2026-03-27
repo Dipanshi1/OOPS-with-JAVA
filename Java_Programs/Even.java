@@ -1,4 +1,4 @@
-package java_programs;
+
 public class Even {
     public static void main(String[] args) {
         int number = 7;
