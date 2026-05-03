@@ -9,11 +9,6 @@ public class InputMethodsDemo {
             System.out.println(args[i]);
         }
 
-        DataInputStream dis = new DataInputStream(System.in);
-        System.out.print("Enter using DataInputStream: ");
-        String d = dis.readLine();
-        System.out.println("You entered: " + d);
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter using BufferedReader: ");
         String b = br.readLine();
