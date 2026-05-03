@@ -1,0 +1,36 @@
+package Mathematics;
+
+public class Matrix {
+    public int[][] add(int[][] a, int[][] b) {
+        int r = a.length, c = a[0].length;
+        int[][] res = new int[r][c];
+
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                res[i][j] = a[i][j] + b[i][j];
+            }
+        }
+        return res;
+    }
+
+    public int[][] subtract(int[][] a, int[][] b) {
+        int r = a.length, c = a[0].length;
+        int[][] res = new int[r][c];
+
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                res[i][j] = a[i][j] - b[i][j];
+            }
+        }
+        return res;
+    }
+
+    public void print(int[][] m) {
+        for (int i = 0; i < m.length; i++) {
+            for (int j = 0; j < m[0].length; j++) {
+                System.out.print(m[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
